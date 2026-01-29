@@ -1,0 +1,30 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.json
+data/
+
+# Model files (keep only deployment versions)
+optimized_*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
